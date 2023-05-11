@@ -15,7 +15,7 @@ describe('Sportisimo', () => {
         cy.get('#didomi-notice-agree-button').click();
         cy.get('#login_tab_link > p').click();
         cy.get('#input_login-menu-email').type('alexandru.lucaciu@hotmail.com');
-        cy.get('#login_menu_password').type('darkangel');
+        cy.get('#login_menu_password').type('*******');
         cy.get(':nth-child(4) > .button > label').click();
     })
 
@@ -25,7 +25,7 @@ describe('Sportisimo', () => {
         cy.get('#didomi-notice-agree-button').click();
         cy.get('#login_tab_link > p').click();
         cy.get('#input_login-menu-email').type('alexandru.lucaciu@hotmail.com');
-        cy.get('#login_menu_password').type('darkangel');
+        cy.get('#login_menu_password').type('******');
         cy.get(':nth-child(4) > .button > label').click();
         cy.get('#login_menu_link').click();
         cy.get('.sbm_login_head > a').click();
@@ -38,7 +38,7 @@ describe('Sportisimo', () => {
         cy.get('#didomi-notice-agree-button').click();
         cy.get('#login_tab_link > p').click();
         cy.get('#input_login-menu-email').type('alexandru.lucaciu@hotmail.com');
-        cy.get('#login_menu_password').type('darkangel');
+        cy.get('#login_menu_password').type('*******');
         cy.get(':nth-child(4) > .button > label').click();
         cy.get('#main_menu_head > p').click();
         cy.get('#cat_56501_link > span').click();
@@ -53,7 +53,7 @@ describe('Sportisimo', () => {
         cy.get('#didomi-notice-agree-button').click();
         cy.get('#login_tab_link > p').click();
         cy.get('#input_login-menu-email').type('alexandru.lucaciu@hotmail.com');
-        cy.get('#login_menu_password').type('darkangel');
+        cy.get('#login_menu_password').type('******l');
         cy.get(':nth-child(4) > .button > label').click();
         cy.get('#main_menu_head > p').click();
         cy.get('#cat_56501_link > span').click();
@@ -74,7 +74,7 @@ describe('Sportisimo', () => {
         cy.get('#didomi-notice-agree-button').click();
         cy.get('#login_tab_link > p').click();
         cy.get('#input_login-menu-email').type('alexandru.lucaciu@hotmail.com');
-        cy.get('#login_menu_password').type('darkangel');
+        cy.get('#login_menu_password').type('******');
         cy.get(':nth-child(4) > .button > label').click();
         cy.get('#main_menu_head > p').click();
         cy.get('#cat_56501_link > span').click();
@@ -93,7 +93,7 @@ describe('Sportisimo', () => {
         cy.get('#didomi-notice-agree-button').click();
         cy.get('#login_tab_link > p').click();
         cy.get('#input_login-menu-email').type('alexandru.lucaciu@hotmail.com');
-        cy.get('#login_menu_password').type('darkangel');
+        cy.get('#login_menu_password').type('******');
         cy.get(':nth-child(4) > .button > label').click();
         cy.get('#main_menu_head > p').click();
         cy.get('#cat_56501_link > span').click();
@@ -111,7 +111,7 @@ describe('Sportisimo', () => {
         cy.get('#didomi-notice-agree-button').click();
         cy.get('#login_tab_link > p').click();
         cy.get('#input_login-menu-email').type('alexandru.lucaciu@hotmail.com');
-        cy.get('#login_menu_password').type('darkangel');
+        cy.get('#login_menu_password').type('*******');
         cy.get(':nth-child(4) > .button > label').click();
         cy.get('#search_head > p').click();
         cy.get('#search_input').type('puma').type('{enter}');
